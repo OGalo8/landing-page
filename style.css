@@ -28,6 +28,8 @@ a {
 #header-logo {
     color: #f9faf8;
     font-size: 24px;
+    font-weight: 700;
+    
 }
 
 ul {
@@ -35,13 +37,16 @@ ul {
     justify-content: space-around;
     list-style: none;
     align-items: center;
-    padding: 10px;
+    padding-top: 10px;
 }
 
 .right-links {
     display: flex;
     gap: 30px;
+
 }
+
+
 
 .header {
     display: flex;
@@ -64,16 +69,73 @@ h1 {
     cursor: pointer;
 }
 
-img {
+#main-image {
     width: 400px;
-    height: 300px;
+}
+
+.subtext {
+    max-width: 200px;
+}
+
+.header-text {
+    max-width: 400px;
+    padding-bottom: 10px;
 }
 
 .section-1a {
     display: flex;
+    justify-content:space-between;
+    gap: 50px;
+    padding: 50px;
+    align-items: center;
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    gap: 20px;
+}
+
+.section-2a {
+    display: flex;
     justify-content: space-around;
-    gap: 100px;
-    padding: 100px;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex: 1;
+    padding: 30px;
+
+}
+
+.card {
+    flex-basis: 200px;
+    height: 150px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 3px solid #3882f6;
+}
+
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    font-weight:300;
+    font-style:italic;
+    font-size: 36px;
+    color: #1f2937;
+    background-color:#e5e7eb;
+    padding: 60px;
+}
+
+.quote-author {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: right;
+    font-style:normal;
 }
 
 
